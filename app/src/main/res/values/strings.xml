@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomNavigationDrawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_history">History</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_change_pass">Change Password</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
