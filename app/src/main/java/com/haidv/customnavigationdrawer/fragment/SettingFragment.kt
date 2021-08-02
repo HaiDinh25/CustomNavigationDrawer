@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import com.haidv.customnavigationdrawer.R
 
-class HistoryFragment : Fragment() {
+class SettingFragment : Fragment() {
 
     companion object {
         @JvmStatic
         fun newInstance() =
-            HistoryFragment().apply {
+            SettingFragment().apply {
                 arguments = Bundle().apply {
 
                 }
@@ -30,7 +30,7 @@ class HistoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_history, container, false)
+        return inflater.inflate(R.layout.fragment_setting, container, false)
     }
 
 }

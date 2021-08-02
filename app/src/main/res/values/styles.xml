@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarColor">
+        <item name="colorOnPrimary">@color/colorPurple_700</item>
+    </style>
+
+    <style name="LayoutInActivityWeight1">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/bg_view_conner_5dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ToDayActivityLayout">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/bg_view_conner_5dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="TextViewDetailInHome">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:text">@string/home_detail</item>
+        <item name="android:textColor">@color/colorPurple_700</item>
+        <item name="drawableEndCompat">@drawable/ic_view_detail</item>
+    </style>
+
+    <style name="TextViewBoldInHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPurple_700</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

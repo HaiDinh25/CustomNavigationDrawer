@@ -8,26 +8,27 @@
             android:title="@string/menu_home" />
 
         <item
-            android:id="@+id/menuFavorite"
-            android:icon="@drawable/ic_favorite"
-            android:title="@string/menu_favorite" />
+            android:id="@+id/menuActivity"
+            android:icon="@drawable/ic_activity"
+            android:title="@string/menu_activity" />
 
         <item
-            android:id="@+id/menuHistory"
-            android:icon="@drawable/ic_history"
-            android:title="@string/menu_history" />
+            android:id="@+id/menuSetting"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_setting" />
     </group>
     <item android:title="@string/menu_account">
         <menu>
             <item
                 android:id="@+id/menuProfile"
-                android:icon="@drawable/ic_person"
+                android:icon="@drawable/ic_profile"
                 android:title="@string/menu_profile" />
 
             <item
                 android:id="@+id/menuChangePass"
                 android:icon="@drawable/ic_change_pass"
-                android:title="@string/menu_change_pass" />
+                android:title="@string/menu_change_pass"
+                android:visible="false" />
         </menu>
     </item>
 
